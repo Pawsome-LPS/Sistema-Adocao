@@ -1,9 +1,15 @@
-# Trabalho de LPS
+# Trabalho de Laboratorio de Projeto de Sistemas
 
 ### Sobre o Trabalho:
 Sistema de Adoção de Animais
 
 - Descrição
+    Sistema de Adoçao de Animais desenvolvido em Web.
+    Nosso Sistema visa permitir: 
+    * Disponibilização de animais para adoção.
+    * Exibição de todos dados sobre os animais.
+    * Edição dos dados dos animais.
+
 
 Trabalho realizado pelos alunos da PUC-MG 
 
