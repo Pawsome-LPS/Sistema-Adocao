@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import DogCard from 'components';
 
 class App extends Component {
   render() {
@@ -11,13 +12,13 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <DogCard/>
           <a
             className="App-link"
             href="https://google.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            TOMA NO CUUUUUUUUUUUUUUUUUUU
           </a>
         </header>
       </div>
