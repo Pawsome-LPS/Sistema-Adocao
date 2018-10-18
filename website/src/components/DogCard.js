@@ -2,12 +2,13 @@ import React from 'react';
 
 class DogCard extends React.Component {
     render() {
-        this
+        
         return(
             <div> 
-               {
-                
-               }
+               <image>
+
+               </image>
+
             </div>
         )
     }

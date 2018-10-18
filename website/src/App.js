@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import DogCard from 'components';
+import DogCard from './components/DogCard';
 
 class App extends Component {
   render() {
