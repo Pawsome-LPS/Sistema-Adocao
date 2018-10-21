@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import DogCard from './components/DogCard';
+import PessoaCadastro from "./components/PessoaCadastro";
 
 class App extends Component {
   render() {
