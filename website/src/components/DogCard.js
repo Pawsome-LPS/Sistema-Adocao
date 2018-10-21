@@ -4,11 +4,10 @@ class DogCard extends React.Component {
     render() {
         
         return(
-            <div> 
-               <image>
+            <div>
+                <image>
 
-               </image>
-
+                </image>
             </div>
         )
     }
