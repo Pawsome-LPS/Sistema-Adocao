@@ -14,6 +14,7 @@ class App extends Component {
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <DogCard/>
+          <PessoaCadastro/>
           <a
             className="App-link"
             href="https://google.com"
