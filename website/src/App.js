@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom'; 
 import DogCard from './components/DogCard';
 import PessoaCadastro from "./components/PessoaCadastro";
 import CadastroPet from "./components/CadastroPet";
@@ -9,11 +10,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <DogCard name="Wyllianderson" idade="2 anos" vacinacao="13/06/2018"/>
-          <PessoaCadastro/>
-          <CadastroPet/>
-        </header>
+        
+        <BrowserRouter>
+          <switch>
+            <Route path="/login"/>
+            <Route path="/cadastro"/>
+            <Route path="/#/cadastro_pet"/>
+            <Route path="/#/"/>
+          </switch>
+        </BrowserRouter>
       </div>
     );
   }
