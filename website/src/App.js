@@ -4,6 +4,7 @@ import './App.css';
 import DogCard from './components/DogCard';
 import PessoaCadastro from "./components/PessoaCadastro";
 import CadastroPet from "./components/CadastroPet";
+import Login from './components/Login';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <DogCard/>
           <PessoaCadastro/>
           <CadastroPet/>
+          <Login/>
           <a
             className="App-link"
             href="https://google.com"
