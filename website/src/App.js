@@ -10,20 +10,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <DogCard/>
+          <DogCard name="Wyllianderson" idade="2 anos" vacinacao="13/06/2018"/>
           <PessoaCadastro/>
           <CadastroPet/>
-          <a
-            className="App-link"
-            href="https://google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          </a>
         </header>
       </div>
     );
