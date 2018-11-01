@@ -5,6 +5,10 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import DogCard from './components/DogCard';
 import PessoaCadastro from "./components/PessoaCadastro";
 import CadastroPet from "./components/CadastroPet";
+import LoginScreen from './components/LoginScreen';
+import PessoaCadastroScreen from './components/PessoaCadastroScreen';
+import CadastroPetScreen from './components/CadastroPetScreen';
+
 
 class App extends Component {
   render() {
@@ -13,9 +17,9 @@ class App extends Component {
         
         <BrowserRouter>
           <switch>
-            <Route path="/login"/>
-            <Route path="/cadastro"/>
-            <Route path="/#/cadastro_pet"/>
+            <Route path="/login" component={LoginScreen}/>
+            <Route path="/cadastro" component={PessoaCadastro}/>
+            <Route path="/cadastro_pet" component={CadastroPetScreen}/>
             <Route path="/#/"/>
           </switch>
         </BrowserRouter>
