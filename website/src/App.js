@@ -14,7 +14,6 @@ class App extends Component {
           <DogCard name="Wyllianderson" idade="2 anos" vacinacao="13/06/2018"/>
           <PessoaCadastro/>
           <CadastroPet/>
-<<<<<<< HEAD
           <Login/>
           <a
             className="App-link"
@@ -23,8 +22,6 @@ class App extends Component {
             rel="noopener noreferrer"
           >
           </a>
-=======
->>>>>>> ac01095e0fc31e2c2091e628d1428de4b13269ad
         </header>
       </div>
     );
