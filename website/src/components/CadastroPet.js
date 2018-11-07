@@ -5,9 +5,6 @@ import { Container, Row, Col, Input, Button, Fa, Card, CardBody } from 'mdbreact
 class CadastroPet extends React.Component {
     render() {
         return (
-            <Container>
-                <Row>
-                    <Col md="6">
                         <Card>
                             <CardBody>
                                 <form>
@@ -24,9 +21,6 @@ class CadastroPet extends React.Component {
                                 </form>
                             </CardBody>
                         </Card>
-                    </Col>
-                </Row>
-            </Container>
         );
     }
 };

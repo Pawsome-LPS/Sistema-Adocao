@@ -4,9 +4,6 @@ import { Container, Row, Col, Input, Button, Fa, Card, CardBody } from 'mdbreact
 class PessoaCadastro extends React.Component  {
   render() {
     return(
-      <Container>
-        <Row>
-          <Col md="6">
             <Card>
               <CardBody>
                 <form>
@@ -25,9 +22,6 @@ class PessoaCadastro extends React.Component  {
                 </form>
               </CardBody>
             </Card>
-          </Col>
-        </Row>
-      </Container>
     );
   }
 };

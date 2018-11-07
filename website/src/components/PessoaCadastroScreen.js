@@ -1,10 +1,12 @@
 import React from 'react';
-import Cadastro from './PessoaCadastro'
+import Cadastro from './PessoaCadastro';
+import './components.css';
+
 class PessoaCadastroScreen extends React.Component {
     render(){
         return(
-            <div className="App">
-                <Cadastro/>
+            <div className="App component">
+                <Cadastro className='component'/>
             </div>
         )
     }

@@ -8,19 +8,21 @@ import CadastroPet from "./components/CadastroPet";
 import LoginScreen from './components/LoginScreen';
 import PessoaCadastroScreen from './components/PessoaCadastroScreen';
 import CadastroPetScreen from './components/CadastroPetScreen';
+import BuscaScreen from './components/BuscaScreen';
+
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="container-fluid App">
         
         <BrowserRouter>
           <switch>
             <Route path="/login" component={LoginScreen}/>
             <Route path="/cadastro" component={PessoaCadastro}/>
             <Route path="/cadastro_pet" component={CadastroPetScreen}/>
-            <Route path="/#/"/>
+            <Route path="/busca" component={BuscaScreen}/>
           </switch>
         </BrowserRouter>
       </div>

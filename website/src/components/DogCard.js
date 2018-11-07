@@ -16,8 +16,6 @@ class DogCard extends React.Component {
             </Card>
         )
     }
-
-
 }
 
 export default DogCard;
