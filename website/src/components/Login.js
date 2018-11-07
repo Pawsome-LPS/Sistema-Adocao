@@ -5,9 +5,6 @@ import 'mdbreact/dist/css/mdb.css';
 class Login extends React.Component {
     render() {
         return (
-            <Container>
-                <Row>
-                    <Col md="6">
                         <Card>
                             <CardBody>
                                 <form>
@@ -25,9 +22,6 @@ class Login extends React.Component {
                                 </p>
                             </CardBody>
                         </Card>
-                    </Col>
-                </Row>
-            </Container>
         );
     }
 };

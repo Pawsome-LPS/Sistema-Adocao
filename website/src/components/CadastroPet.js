@@ -20,7 +20,7 @@ class CadastroPet extends React.Component {
                                     </div>
                                 </form>
                             </CardBody>
-                        </Card>
+                        </Card>// 
         );
     }
 };
