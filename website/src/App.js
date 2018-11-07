@@ -9,6 +9,7 @@ import LoginScreen from './components/LoginScreen';
 import PessoaCadastroScreen from './components/PessoaCadastroScreen';
 import CadastroPetScreen from './components/CadastroPetScreen';
 import BuscaScreen from './components/BuscaScreen';
+import RelatorioScreen from './components/RelatorioScreen';
 
 
 
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path="/cadastro" component={PessoaCadastro}/>
             <Route path="/cadastro_pet" component={CadastroPetScreen}/>
             <Route path="/busca" component={BuscaScreen}/>
+            <Route path="/relatorio" component= {RelatorioScreen}/>
           </switch>
         </BrowserRouter>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Login from './Relatorio'
+import Relatorio from './Relatorio'
 class RelatorioScreen extends React.Component {
     render() {
         return (

@@ -7,7 +7,7 @@ class LinhaRelatorio extends React.Component {
                 <th>{this.props.sexo}</th>
                 <th>{this.props.especie}</th>
                 <th>{this.props.idade}</th>
-                <th>{this.props.raça}</th>
+                <th>{this.props.raca}</th>
             </tr>
         )
     }
