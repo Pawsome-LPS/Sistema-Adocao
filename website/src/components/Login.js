@@ -19,23 +19,25 @@ class Login extends React.Component {
 
     render() {
         return (
-                        <Card>
-                            <CardBody>
-                                <form>
-                                    <p className="h5 text-center mb-4 cadastre">Login</p>
-                                    <div className="grey-text">
-                                        <Input label="Email" onChange={(event) => {this.email = event.target.value}} icon="envelope" group type="email" validate error="wrong" success="right" />
-                                        <Input label="Senha" onChange={(event) => {this.senha = event.target.value }} icon="lock" group type="password" validate />
-                                    </div>
-                                    <div className="text-center">
-                                        <Button onClick = {this.login()}>Login</Button>
-                                    </div>
-                                </form>
-                                <p className="cadastre">Não possui login?
-                                    <a href="#"> Cadastre-se aqui</a>
-                                </p>
-                            </CardBody>
-                        </Card>
+            <Col md="6" className='component-content'>
+                <Card>
+                    <CardBody>
+                        <form>
+                            <p className="h5 text-center mb-4 cadastre">Login</p>
+                            <div className="grey-text">
+                                <Input label="Email" onChange={(event) => {this.email = event.target.value}} icon="envelope" group type="email" validate error="wrong" success="right" />
+                                <Input label="Senha" onChange={(event) => {this.senha = event.target.value }} icon="lock" group type="password" validate />
+                            </div>
+                            <div className="text-center">
+                                <Button onClick = {this.login()}>Login</Button>
+                            </div>
+                        </form>
+                        <p className="cadastre">Não possui login?
+                            <a href="#"> Cadastre-se aqui</a>
+                        </p>
+                    </CardBody>
+                </Card>
+            </Col>
         );
     }
 };

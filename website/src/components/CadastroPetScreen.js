@@ -5,7 +5,7 @@ import './components.css';
 class CadastroPetScreen extends React.Component {
     render(){
         return(
-            <div className="App">
+            <div className="component">
                 <CadastroPet/>
             </div>
         )

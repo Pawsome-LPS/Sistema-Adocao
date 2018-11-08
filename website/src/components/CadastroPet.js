@@ -24,22 +24,24 @@ class CadastroPet extends React.Component {
     }
     render() {
         return (
-                        <Card>
-                            <CardBody>
-                                <form>
-                                    <p className="cadastre">Cadastre Seu Amigo</p>
-                                    <div className="grey-text">
-                                        <Input label="Nome" icon="user" group type="text" validate error="wrong" success="right" />
-                                        <Input label="Espécie" icon="paw" group type="text" validate error="wrong" success="right" />
-                                        <Input label="Raça" icon="user" group type="text" validate error="wrong" success="right" />
-                                        <input id="data_nascimento" type="date" className="form-control" name="data_nascimento" placeholder="Data Nascimento" />
-                                        <input id="data_vacinacao" type="date" className="form-control" name="data_vacinacao" placeholder="Data de Vacinação" />
-                                        <input className="btn btn-primary" type="file" accept="image/gif, image/jpeg, image/png" /><br />
-                                        <input onClick={this.login()} className="btn btn-primary" type="submit" value="Cadastrar" /><br />
-                                    </div>
-                                </form>
-                            </CardBody>
-                        </Card>// 
+            <Col md="6" className='component-content'>
+                <Card>
+                    <CardBody>
+                        <form>
+                            <p className="cadastre">Cadastre Seu Amigo</p>
+                            <div className="grey-text">
+                                <Input label="Nome" icon="user" group type="text" validate error="wrong" success="right" />
+                                <Input label="Espécie" icon="paw" group type="text" validate error="wrong" success="right" />
+                                <Input label="Raça" icon="user" group type="text" validate error="wrong" success="right" />
+                                <input id="data_nascimento" type="date" className="form-control" name="data_nascimento" placeholder="Data Nascimento" />
+                                <input id="data_vacinacao" type="date" className="form-control" name="data_vacinacao" placeholder="Data de Vacinação" />
+                                <input className="btn btn-primary" type="file" accept="image/gif, image/jpeg, image/png" /><br />
+                                <input onClick={this.login()} className="btn btn-primary" type="submit" value="Cadastrar" /><br />
+                            </div>
+                        </form>
+                    </CardBody>
+                </Card>
+            </Col>
         );
     }
 };

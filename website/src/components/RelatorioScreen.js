@@ -3,7 +3,7 @@ import Relatorio from './Relatorio'
 class RelatorioScreen extends React.Component {
     render() {
         return (
-            <div className="App">
+            <div>
                 <Relatorio />
             </div>
         )

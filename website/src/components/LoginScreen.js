@@ -3,7 +3,7 @@ import Login from './Login'
 class LoginScreen extends React.Component {
     render(){
         return(
-            <div className="App">
+            <div className="component">
                 <Login/>
             </div>
         )

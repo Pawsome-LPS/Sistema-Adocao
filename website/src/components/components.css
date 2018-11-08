@@ -1,4 +1,11 @@
 .component {
+    margin-top: 50px;
+    margin-right: 0 auto;
+    min-width: 70%;
+    
+}
+
+.component-content {
     display: inline-block;
-    margin-left: auto;
+    margin-right: 0 auto;
 }

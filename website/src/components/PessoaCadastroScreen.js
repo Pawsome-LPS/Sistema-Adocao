@@ -5,7 +5,7 @@ import './components.css';
 class PessoaCadastroScreen extends React.Component {
     render(){
         return(
-            <div className="App component">
+            <div className="component">
                 <Cadastro className='component'/>
             </div>
         )
