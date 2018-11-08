@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
     render() {
         var navStyle = {
-            backgroundColor: "#221F1F",
+            backgroundColor: "#1E90FF",
             color: "#fff",
             verticalAlign: 'baseline',
             ':hover': {
@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
         return (
             <nav className="navbar navbar-dafault navbar-fixed-top" style={navStyle}>    
                 <div className= "navbar-header">
-                    <Link style={{color: "#db0000", marginLeft: '50px'}} className="navbar-brand" to="/" >Totally Not Netflix</Link>
+                    <Link className ="navebar" style={{ color: "#db0000"}} className="navbar-brand" to="/" >Pawsome</Link>
                 </div>
                 
                 <ul className="nav navbar-nav" style={navStyle}>
