@@ -9,7 +9,8 @@
   "author": "Arthur L Pereira",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongodb": "^3.1.9"
   },
   "devDependencies": {},
   "keywords": []
