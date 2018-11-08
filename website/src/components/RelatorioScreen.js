@@ -1,10 +1,15 @@
 import React from 'react';
-import Relatorio from './Relatorio'
+import Relatorio from './Relatorio';
+import Navbar from './navbar';
+
 class RelatorioScreen extends React.Component {
     render() {
         return (
             <div>
-                <Relatorio />
+                <Navbar/>
+                <div>
+                    <Relatorio />
+                </div>
             </div>
         )
     }

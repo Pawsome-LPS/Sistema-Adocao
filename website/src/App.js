@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter, Route } from 'react-router-dom'; 
+import { BrowserRouter, Route, Redirect } from 'react-router-dom'; 
 import PessoaCadastro from "./components/PessoaCadastro";
 import LoginScreen from './components/LoginScreen';
 import CadastroPetScreen from './components/CadastroPetScreen';
@@ -16,6 +16,7 @@ class App extends Component {
         
         <BrowserRouter>
           <switch>
+            <Redirect from="/" to="/login"/>
             <Route path="/login" component={LoginScreen}/>
             <Route path="/cadastro" component={PessoaCadastro}/>
             <Route path="/cadastro_pet" component={CadastroPetScreen}/>

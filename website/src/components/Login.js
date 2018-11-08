@@ -33,7 +33,7 @@ class Login extends React.Component {
                             </div>
                         </form>
                         <p className="cadastre">Não possui login?
-                            <a href="#"> Cadastre-se aqui</a>
+                            <a href="/cadastro"> Cadastre-se aqui</a>
                         </p>
                     </CardBody>
                 </Card>
