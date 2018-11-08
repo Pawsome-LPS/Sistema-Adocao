@@ -1,0 +1,16 @@
+{
+  "name": "pawsome-server",
+  "version": "0.1.0",
+  "description": "back-end for pawsome web-application",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arthur L Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
