@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Container, Row, Col, Input, Button, Fa, Card, CardBody } from 'mdbreact';
+import { Col, Input, Card, CardBody } from 'mdbreact';
 import axios from 'axios'
 
 class CadastroPet extends React.Component {
@@ -30,9 +30,9 @@ class CadastroPet extends React.Component {
                         <form>
                             <p className="cadastre">Cadastre Seu Amigo</p>
                             <div className="grey-text">
-                                <Input label="Nome" icon="user" group type="text" validate error="wrong" success="right" />
-                                <Input label="Espécie" icon="paw" group type="text" validate error="wrong" success="right" />
-                                <Input label="Raça" icon="user" group type="text" validate error="wrong" success="right" />
+                                <Input label="Nome" group type="text" validate error="wrong" success="right" />
+                                <Input label="Espécie" group type="text" validate error="wrong" success="right" />
+                                <Input label="Raça" group type="text" validate error="wrong" success="right" />
                                 <input id="data_nascimento" type="date" className="form-control" name="data_nascimento" placeholder="Data Nascimento" />
                                 <input id="data_vacinacao" type="date" className="form-control" name="data_vacinacao" placeholder="Data de Vacinação" />
                                 <input className="btn btn-primary" type="file" accept="image/gif, image/jpeg, image/png" /><br />

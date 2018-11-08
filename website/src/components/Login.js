@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Input, Button, Fa, Card, CardBody } from 'mdbreact';
+import { Col, Input, Button, Card, CardBody } from 'mdbreact';
 import 'mdbreact/dist/css/mdb.css';
 import axios from 'axios'
 
@@ -25,8 +25,8 @@ class Login extends React.Component {
                         <form>
                             <p className="h5 text-center mb-4 cadastre">Login</p>
                             <div className="grey-text">
-                                <Input label="Email" onChange={(event) => {this.email = event.target.value}} icon="envelope" group type="email" validate error="wrong" success="right" />
-                                <Input label="Senha" onChange={(event) => {this.senha = event.target.value }} icon="lock" group type="password" validate />
+                                <Input label="Email" onChange={(event) => {this.email = event.target.value}} group type="email" validate error="wrong" success="right" />
+                                <Input label="Senha" onChange={(event) => {this.senha = event.target.value }} group type="password" validate />
                             </div>
                             <div className="text-center">
                                 <Button onClick = {this.login()}>Login</Button>
