@@ -1,14 +1,14 @@
 import React from 'react';
 import Login from './Login';
-import Navbar from './navbar';
+import NavbarPage from './navbar';
 
 class LoginScreen extends React.Component {
     render(){
         return(
             <div>
-                <Navbar/>
+                <NavbarPage />
                 <div className="component">
-                    <Login/>
+                    <Login />
                 </div>
             </div>
         )

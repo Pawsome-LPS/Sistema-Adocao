@@ -1,12 +1,12 @@
 import React from 'react';
 import Relatorio from './Relatorio';
-import Navbar from './navbar';
+import NavbarPage from './navbar';
 
 class RelatorioScreen extends React.Component {
     render() {
         return (
             <div>
-                <Navbar/>
+                <NavbarPage />
                 <div>
                     <Relatorio />
                 </div>

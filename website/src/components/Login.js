@@ -32,6 +32,7 @@ class Login extends React.Component {
                                 <Button onClick = {this.login()}>Login</Button>
                             </div>
                         </form>
+                        <br />
                         <p className="cadastre">Não possui login?
                             <a href="/cadastro"> Cadastre-se aqui</a>
                         </p>

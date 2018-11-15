@@ -20,10 +20,12 @@ class Busca extends React.Component {
             pets: []
         }
     }
+
     nome = '';
     data = '';
     raca = ''; 
-    busca() { 
+
+    busca() {
         axios.get('localhost:7000/busca',{
             nome: this.nome,
             data: this.data,
@@ -75,7 +77,7 @@ class Cards extends React.Component {
             paddingLeft: '25px',
 
             
-        }
+        };
       const cardData = this.props.pets; // show in the following codes
       return (
         <section style={style}>
