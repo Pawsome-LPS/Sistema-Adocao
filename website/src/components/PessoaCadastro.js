@@ -17,7 +17,7 @@ class PessoaCadastro extends React.Component  {
                   <Input label="Confirme a senha" group type="password" validate error="wrong" success="right"/>
                 </div>
                 <div className="text-center py-4 mt-3">
-                  <Button color="red">Cancelar</Button>
+                  <Button color="red" href="/login">Cancelar</Button>
                   <Button color="cyan" type="submit">Register</Button>
                 </div>
               </form>

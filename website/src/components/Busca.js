@@ -55,11 +55,11 @@ class Busca extends React.Component {
                             <p className="h4 py-4 cadastre">Busca</p>
                             <div className="grey-text input-div">
                                 <Input label="Raça" onChange={(event) => {this.raca = event.target.value}} group type="text" validate error="wrong" success="right"/>
-                                <Input label="Nome" onChange={(event) => {this.nome = event.target.value}} group type="email" validate error="wrong" success="right"/>
+                                <Input label="Nome" onChange={(event) => {this.nome = event.target.value}} group type="text" validate error="wrong" success="right"/>
                                 <Input label="" onChange={(event) => {this.data = event.target.value}} group type="date" validate error="wrong" success="right"/>
                             </div>
                             <div className="text-center py-4 mt-3">
-                                <Button color="red">Cancelar</Button>
+                                <Button color="red" href="/">Cancelar</Button>
                                 <Button color="cyan" type="submit">Buscar</Button>
                             </div>
                         </form>

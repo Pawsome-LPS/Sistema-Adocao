@@ -14,7 +14,7 @@ import { Navbar, NavbarBrand, NavbarNav, NavItem, NavLink, NavbarToggler, Collap
              <Navbar color="default-color" dark expand="md" style={{marginTop: "0px"}}>
                  {/* Nome */}
                  <NavbarBrand>
-                     <strong className="white-text"><Fa icon="paw" className="ml-1"/> Pawsome</strong>
+                     <NavLink to="/"><strong className="white-text"><Fa icon="paw" className="ml-1"/> Pawsome</strong></NavLink>
                  </NavbarBrand>
 
                  <NavbarToggler onClick={this.toggleCollapse} />
@@ -23,7 +23,7 @@ import { Navbar, NavbarBrand, NavbarNav, NavItem, NavLink, NavbarToggler, Collap
                      {/* Links a esquerda */}
                      <NavbarNav left>
                          <NavItem active>
-                             <NavLink to="#!">Home</NavLink>
+                             <NavLink to="/">Home</NavLink>
                          </NavItem>
                          <NavItem>
                              <NavLink to="#!">Features</NavLink>
@@ -49,21 +49,14 @@ import { Navbar, NavbarBrand, NavbarNav, NavItem, NavLink, NavbarToggler, Collap
                      {/* Links a direita */}
                      <NavbarNav right>
                          <NavItem>
-                             <NavLink className="waves-effect waves-light" to="#!"><Fa icon="twitter" /></NavLink>
-                         </NavItem>
-                         <NavItem>
-                             <NavLink className="waves-effect waves-light" to="#!"><Fa icon="google-plus" /></NavLink>
-                         </NavItem>
-                         <NavItem>
                              <Dropdown>
                                  <DropdownToggle nav caret>
                                      <Fa icon="user" />
                                  </DropdownToggle>
                                  <DropdownMenu className="dropdown-default" right>
-                                     <DropdownItem href="#!">Action</DropdownItem>
-                                     <DropdownItem href="#!">Another Action</DropdownItem>
-                                     <DropdownItem href="#!">Something else here</DropdownItem>
-                                     <DropdownItem href="#!">Something else here</DropdownItem>
+                                     <DropdownItem href="#!">Configuraçoes da Conta</DropdownItem>
+                                     <hr />
+                                     <DropdownItem href="#!">Sair</DropdownItem>
                                  </DropdownMenu>
                              </Dropdown>
                          </NavItem>

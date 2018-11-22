@@ -41,6 +41,6 @@ class Login extends React.Component {
             </Col>
         );
     }
-};
+}
 
 export default Login;
