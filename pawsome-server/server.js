@@ -1,4 +1,4 @@
-import app from './src/app';
+app = require('./src/app');
 
 const port = '7000';
 app.listen(port, () => {

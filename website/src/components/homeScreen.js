@@ -27,7 +27,7 @@ class HomeScreen extends React.Component {
 
                 {/* Cards */}
                 <div className='component'>
-                    <DogCard name="Tobias" idade="3 anos"/>
+                    <DogCard name="Tobias" idade="3 anos" image="https://img.huffingtonpost.com/asset/5b7fdeab1900001d035028dc.jpeg?cache=sixpwrbb1s&ops=1910_1000"/>
                     <DogCard name="Willyanderson" idade="4 anos"/>
                     <DogCard name="Buzz" idade="4 anos"/>
                     <DogCard name="Thor" idade="5 anos"/>

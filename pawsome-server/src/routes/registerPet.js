@@ -1,4 +1,6 @@
-import express from 'express';
+express = require('express');
+MongoClient = require('mongodb').MongoClient;
+
 const router = express.Router();
 router.post('/',  (req, res, next) => {
     o_id = req.body.owner_id;

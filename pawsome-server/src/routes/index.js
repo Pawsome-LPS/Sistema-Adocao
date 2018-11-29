@@ -1,4 +1,6 @@
-import express from 'express';
+express = require('express');
+MongoClient = require('mongodb').MongoClient;
+
 const router = express.Router();
 router.get('/', function (req, res, next) {
     res.status(200).send({

@@ -1,5 +1,6 @@
-import express from 'express';
-import MongoClient from 'mongodb'
+express = require('express');
+MongoClient = require('mongodb').MongoClient;
+
 const router = express.Router();
 router.post('/',  (req, res, next) => {
     email = req.body.email;
