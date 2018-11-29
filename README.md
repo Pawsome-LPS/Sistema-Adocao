@@ -24,6 +24,11 @@ Trabalho realizado pelos alunos da PUC-MG
 ### Feito em:
 - [proto.io](https://proto.io/)
 - [Astah](http://astah.net/)
+- [WebStorm](https://www.jetbrains.com/webstorm/)
+- [Trello](https://trello.com)
+- [MongoDB](https://www.mongodb.com/)
+- [React Express](http://www.react.express/)
+- [VS Code](https://code.visualstudio.com/)
 
 #### Professor: 
 Pasteur Junior
