@@ -5,12 +5,12 @@ const router = express.Router();
 
 //Rotas
 const index = require('./routes/index');
-const personRoute = require('./routes/personRoute');
+const login = require('./routes/login');
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
 app.use('/', index);
-app.use('/login', personRoute);
+app.use('/login', login);
 
 module.exports = app;
